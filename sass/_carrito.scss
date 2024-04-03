@@ -1,0 +1,129 @@
+body { 
+    background: rgb(69,205,231);
+    background: linear-gradient(90deg, rgba(69,205,231,1) 0%, rgba(13,20,201,1) 33%, rgba(10,7,2,1) 79%);
+}
+#contenedorCarrito{
+    display: inline-block;
+    position: relative;
+    width: 97vw;
+    height: 100%;
+    margin-top: 4em;
+    margin-left: 1em;
+    background:transparent;
+
+}
+
+
+
+.cardCarrito {
+    display: flex;
+    align-items: center;
+    padding: .4em;
+    border: 1px solid #1113c6;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: .4em;
+    text-transform: uppercase;
+   
+}
+
+.producto-imagen {
+    border-radius: 8px;
+    width: 9em;
+    height: 10em;
+    margin-right: 1em;
+   
+    
+}
+
+.producto-info {
+    flex-grow: 1;
+    
+}
+
+.producto-nombre {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: .3em;
+}
+
+.producto-precio {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.producto-cantidad {
+    display: flex;
+    align-items: center;
+}
+
+.producto-cantidad span {
+    margin-right: 5px;
+}
+
+.cantidad {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.eliminar-producto {
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(211, 205, 205);
+    display: inline-block;
+    width: 6em;
+    height: 4em;
+    margin-right: 1em;
+}
+
+.eliminar-producto i{
+      font-size: 1.6em;
+}
+
+#totalCarrito{
+    color: aliceblue;
+
+    h2{
+        font-size: 1em;
+    }
+
+    span{
+        font-size: 2em;
+        padding: .2em;
+        background-color: #176b22;
+        border: none;
+        border-radius: 5px;
+    }
+}
+
+
+//btn compras generales 
+
+.botones-globales {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.3em;
+    margin-bottom: 2em;
+}
+
+.botones-globales button {
+    color:white;
+    background-color:#080cff;
+    border: none;
+    padding: .8em 1.3em;
+    width: 20em;
+    cursor: pointer;
+}
+
+.botones-globales button:hover {
+    background-color: #14afec;
+}
+
